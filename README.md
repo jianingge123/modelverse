@@ -16,6 +16,6 @@
 
 
 ## 3.使用指南
-* [操作指南](/modelverse/introduction.md)
+* [操作指南](/modelverse/guide.md)
 
 
