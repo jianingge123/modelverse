@@ -5,4 +5,4 @@
 * 2.购买及付费
    * [计费指南](/modelverse/price.md)
 * 3.使用指南
-   * [操作指南](/modelverse/introduction.md)
+   * [操作指南](/modelverse/guide.md)
