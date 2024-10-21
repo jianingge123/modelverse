@@ -1,10 +1,11 @@
 
 
 * [概览](/README.md)
-* 1.产品介绍
-   *  [什么是模型服务平台](/modelverse/introduction.md)
-   *  [应用场景](/modelverse/introduction.md)
-* 2.购买及付费
-   * [计费指南](/modelverse/price.md)
-* 3.使用指南
-   * [操作指南](/modelverse/guide.md)
+* [产品简介](/modelverse/introduction.md)
+* [快速上手](/modelverse/guide/briefguide.md)
+* [计费说明](/modelverse/price.md)
+* 操作指南
+   * [模型管理](/modelverse/guide/model-manage.md)
+   * [模型微调](/modelverse/guide/model-change.md)
+   * [服务部署](/modelverse/guide/service-manage.md)
+   * [数据集管理](/modelverse/guide/dataset-manage.md)
