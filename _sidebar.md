@@ -6,6 +6,6 @@
 * [计费说明](/modelverse/price.md)
 * 操作指南
    * [模型管理](/modelverse/guide/model-manage.md)
-   * [模型微调](/modelverse/guide/model-change.md)
+   * [模型微调](/modelverse/guide/model-finetuning.md)
    * [服务部署](/modelverse/guide/service-manage.md)
    * [数据集管理](/modelverse/guide/dataset-manage.md)
