@@ -23,11 +23,11 @@
 
 3. 点击产品「模型服务平台 UModelVerse」—— 功能菜单「数据集管理」——创建数据集
 
-   ![image.png](/pics/newuser/briefguide1.png)
+   ![image.png](https://www-s.ucloud.cn/2024/10/75cd5787f75c6fc534162c1dc458e539_1730086002177.png)
 
 4. 选择已导入US3的训练数据，用于微调训练时使用
 
-   ![image.png](/pics/newuser/briefguide2.png)
+   ![image.png](https://www-s.ucloud.cn/2024/10/9d5bbe501f31669bf091163edbbb837b_1730086002181.png)
 
 
 #### **第二步：模型微调**
@@ -44,10 +44,10 @@
    4. 输出配置：配置模型训练完成后导出的路径
    5. 确认配置：确认所有参数和计费信息，确认后下发任务即可
 
-      ![image.png](/pics/newuser/briefguide3.png)
+      ![image.png](https://www-s.ucloud.cn/2024/10/d62e5ae56934d8906d9746e1e1ec77d9_1730086002185.png)
 3. 确认后任务将自动下发并调用训练算力进行模型训练。待状态变为「已完成」后，表示训练任务已结束，可查看模型详情。在训练过程中，也可以随时查看监控图，观察训练过程，若有异常可随时停止训练任务。
 
-   ![image.png](/pics/newuser/briefguide4.png)
+   ![image.png](https://www-s.ucloud.cn/2024/10/b850be259df0e4f4642e171283f7cde4_1730086002191.png)
 
 
 
@@ -63,7 +63,7 @@
 2. 选择预置模型或我的模型（模型管理中已发布的模型）
 3. 选择资源副本数，确认计费信息后即可创建服务
 
-   ![image.png](/pics/newuser/briefguide5.png)
+   ![image.png](https://www-s.ucloud.cn/2024/10/6e845487011f0e2adbf5679dfa47dd4d_1730086002194.png)
 
 ​	创建完成的服务将自动进入部署状态，部署成功后将生成API Key，可用于服务调用
 
