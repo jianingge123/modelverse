@@ -20,7 +20,7 @@
 
 操作步骤：点击产品「模型服务平台 UModelVerse」—— 功能菜单「模型微调」——对状态为「已完成」的任务可以操作「发布」，发布成功后即可在「模型管理」中查看。
 
-![image.png](/pics/guide/model-manage.png)
+![image.png](https://www-s.ucloud.cn/2024/10/f2b5dc5a53c221b088fb9b527c5a2291_1730086002133.png)
 
 
 
