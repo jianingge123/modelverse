@@ -14,7 +14,7 @@
 
    平台预置主流开源模型，也支持从US3对象存储中导入私有模型
 
-   ![image.png](/pics/guide/model-finetuning1.png)
+   ![image.png](https://www-s.ucloud.cn/2024/10/27acdef9b804d76fd9daffa9e4267261_1730086002116.png)
 
 2. ##### **数据配置**
 
@@ -22,7 +22,7 @@
 
    前提：将训练数据上传至US3存储空间，并关联到数据集管理中，详见数据集管理
 
-   ![image.png](/pics/guide/model-finetuning2.png)
+   ![image.png](https://www-s.ucloud.cn/2024/10/1abfdcdc8114e3c7726f204283733980_1730086002120.png)
 
 3. ##### **参数配置**
 
@@ -53,7 +53,7 @@
 
    配置训练完成后的模型的存放路径，目前仅支持华北二US3的存储空间
 
-   ![image.png](/pics/guide/model-finetuning3.png)
+   ![image.png](https://www-s.ucloud.cn/2024/10/0c091cb7cd5c01144d15c6efb7079cf3_1730086002124.png)
 
 5. ##### **确认配置**
 
