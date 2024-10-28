@@ -1,8 +1,10 @@
 
 
-* [概览](/README.md)
-* [产品简介](/modelverse/introduction.md)
-* [快速上手](/modelverse/guide/briefguide.md)
+* [概览](/modelverse/README.md)
+* 产品简介
+   * [什么是模型服务平台](/modelverse/introduction/introduction.md)
+   * [产品优势](/modelverse/introduction/advantages.md)
+* [快速上手](/modelverse/briefguide.md)
 * [计费说明](/modelverse/price.md)
 * 操作指南
    * [模型管理](/modelverse/guide/model-manage.md)

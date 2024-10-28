@@ -8,7 +8,8 @@
 
 ## 1.产品简介
 
-*  [产品简介](/modelverse/introduction.md)
+*  [什么是模型服务平台](/modelverse/introduction/introduction.md)
+*  [产品优势](/modelverse/introduction/advantages.md)
 
 ## 2.快速上手
 

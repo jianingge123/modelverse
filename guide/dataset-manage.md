@@ -4,4 +4,4 @@
 
 目前平台支持从US3中关联数据路径，支持json格式的数据集文件。
 
-![](/pics/guide/dataset-manage.png)
+![image.png](/pics/guide/dataset-manage.png)
