@@ -4,4 +4,4 @@
 
 目前平台支持从US3中关联数据路径，支持json格式的数据集文件。
 
-![image.png](/pics/guide/dataset-manage.png)
+![image.png](https://www-s.ucloud.cn/2024/10/7d0e938587a680fde20832ca46c6ea36_1730086002108.png)
