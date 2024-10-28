@@ -11,7 +11,7 @@
 
 创建后的服务将根据所选的副本数自动创建推理资源生成在线服务
 
-![image.png](/pics/guide/service-manage1.png)
+![image.png](https://www-s.ucloud.cn/2024/10/c5b414dbe570d893281a9122c8960be4_1730086002135.png)
 
 ### **查看&管理服务**
 
@@ -19,4 +19,4 @@
 
 查看已创建的服务的部署状态。部署成功后，平台将自动生成API服务地址和Key，用户可通过调用API进行服务访问，也可点击「访问」打开对话框进行在线验证。
 
-![image.png](/pics/guide/service-manage2.png)
+![image.png](https://www-s.ucloud.cn/2024/10/1e6e0fc733f68b5babcdba384172d155_1730086002173.png)
