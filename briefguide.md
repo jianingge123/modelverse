@@ -62,14 +62,14 @@
 4. 评估模型：选择「基线模型」（必选）和「对比模型」。
 5. 停用词表：选择「预置停用词表」或上传「自定义停用词表」（自定义数据集适用）。若选择「预置数据集」，则跳过这一步。
 6. 存储设置：通过授权令牌，选择存储空间，目前仅支持华北二区域。
-
+![brief-evaluation.png](https://github.com/jianingge123/modelverse/blob/master/pics/newuser/brief-evaluation.png)
 创建评估任务后将自动进行评估。待状态变为「已完成」后，表示评估任务已结束，可查看评估结果。当前支持的评估结果分为2种：
 1. 预置数据集评估报告
 支持查看评估报告。指标打分（STEM、Social Sciences、Humanities、Other、Average）和结果可视化。
-
+![brief-evaluation2.png](https://github.com/jianingge123/modelverse/blob/master/pics/newuser/brief-evaluation2.png)
 2.自定义数据集评估报告
 支持查看评估报告和评估详情。指标打分（ROUGE-1、ROUGE-2、ROUGE-L、BLEU）、可视化结果、和评估详情。
-
+![brief-evaluation3.png](https://github.com/jianingge123/modelverse/blob/master/pics/newuser/brief-evaluation3.png)
 #### **第五步：服务部署**
 
 1. 点击产品「模型服务平台 UModelVerse」—— 功能菜单「服务管理」——创建服务
