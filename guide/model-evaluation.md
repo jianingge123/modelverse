@@ -22,11 +22,10 @@
      
 - 若选择「自定义数据集」，则在下拉框中选择一个在「数据集管理」中创建完成的数据集。如果还没有创建任何自定义数据集，系统将引导跳转至「数据集管理」页面进行创建。
 3. 选择「评估模型」，必须选定一个基线模型，并可选择对比模型进行效果对比。基线模型和对比模型均支持选择「预置模型」或「我的模型」，或两种模型混合选择。
-<img width="1059" alt="image" src="https://github.com/user-attachments/assets/bf1a13d2-8f82-459e-bd63-7a4807605d38" />
+![model-evaluation1](../pics/guide/model-evaluation1.png)
 
 4. 「存储设置」通过授权令牌，选择bucket关联的令牌列表，目前仅支持选择华北二区域下的存储空间。
-  <img width="1081" alt="image" src="https://github.com/user-attachments/assets/d7db9bb3-e30e-46ef-9c5e-101446f8f4b0" />
-
+![model-evaluation2](../pics/guide/model-evaluation2.png)
 
 ## 管理任务和查看报告
 
@@ -34,7 +33,7 @@
 
 ### 查看报告
 
-![](https://wdcdn.qpic.cn/MTY4ODg1NjEwOTY0NTI3NA_722056_9avLvYX2Wyc0E08c_1735893001?w=1642&h=898&type=image/png)
+![model- evaluation1.png](pics/guide/model- evaluation1.png)
 
 - 对于基线评估数据集，支持查看含有指标评分和可视化雷达图的报告。
 - 对于自定义数据集，支持查看指标评分、雷达图，和单句得分详情。在查看评估详情时，平台支持对模型进行过滤筛选及单句评分排序。
