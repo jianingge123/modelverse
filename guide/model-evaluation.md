@@ -32,7 +32,6 @@
 在创建任务后，您可以查看任务管理列表。可对任务执行的操作有：查看报告、终止、删除。
 
 ### 查看报告
-
 ![model- evaluation3.png](https://github.com/jianingge123/modelverse/blob/master/pics/guide/model-%20evaluation3.png)
 
 - 对于基线评估数据集，支持查看含有指标评分和可视化雷达图的报告。
@@ -69,8 +68,8 @@
 ### 任务终止操作
 
 - 终止：用户可以在评估任务进行中随时停止当前任务。
-  ![model- evaluation5.png](https://github.com/jianingge123/modelverse/blob/master/pics/guide/model-%20evaluation5.png)
+![model- evaluation5.png](https://github.com/jianingge123/modelverse/blob/master/pics/guide/model-%20evaluation5.png)
 - 删除：对训练失败、已完成、已终止的任务可进行删除。
-  ![model- evaluation6.png](https://github.com/jianingge123/modelverse/blob/master/pics/guide/model-%20evaluation6.png)
+![model- evaluation6.png](https://github.com/jianingge123/modelverse/blob/master/pics/guide/model-%20evaluation6.png)
 
 
