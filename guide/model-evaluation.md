@@ -70,7 +70,7 @@
 
 ### 任务终止操作
 
-- 终止：用户可以在评估任务进行中随时停止当前任务。
+- 终止：用户可以在评估任务排队中或进行中随时终止当前任务。
 
 ![model-evaluation5](https://github.com/jianingge123/modelverse/blob/master/pics/guide/model-%20evaluation5.png)
 
