@@ -20,14 +20,15 @@
 | 适用语言  | 中文 | 英文 | 中文 |
 | 特点      | 包括中国特色内容，如“中国饮食文化”、“名族学”、“中国驾驶规则”等。 | 测试内容既涵盖世界知识，又涉及问题解决能力。 | 针对中文模型的综合测试机。 |
 
-   - 若选择「自定义数据集」，则在下拉框中选择一个在「数据集管理」中创建完成的数据集。如果还没有创建任何自定义数据集，系统将引导跳转至「数据集管理」页面进行创建。
+- 若选择「自定义数据集」，则在下拉框中选择一个在「数据集管理」中创建完成的数据集。如果还没有创建任何自定义数据集，系统将引导跳转至「数据集管理」页面进行创建。
+
 3. 选择评估模型：必须选定一个基线模型，并可选择对比模型进行效果对比。基线模型和对比模型均支持选择「预置模型」或「我的模型」，或两种模型混合选择。
 
-![model-evaluation1](https://github.com/jianingge123/modelverse/blob/master/pics/guide/model-%20evaluation1.png)
+![model-evaluation2](https://www-s.ucloud.cn/2025/01/1cfda00b6d0d131e77f8b4802d2e2562_1736848161400.png)
 
 4. 存储设置：通过授权令牌，选择 bucket 关联的令牌列表，目前仅支持选择华北二区域下的存储空间。
 
-![model-evaluation2](https://github.com/jianingge123/modelverse/blob/master/pics/guide/model-%20evaluation2.png)
+![model-evaluation2](https://www-s.ucloud.cn/2025/01/5c6aa18a3dd688bf1cdad6f2cdfbaf02_1736846738712.png)
 
 ## 管理任务和查看报告
 
@@ -35,12 +36,12 @@
 
 ### 查看报告
 
-![model-evaluation3](https://github.com/jianingge123/modelverse/blob/master/pics/guide/model-%20evaluation3.png)
+![model-evaluation3](https://www-s.ucloud.cn/2025/01/029a3c76110c913681932c548eff6048_1736846738708.png)
 
 - 对于基线评估数据集，支持查看含有指标评分和可视化雷达图的报告。
 - 对于自定义数据集，支持查看指标评分、雷达图，和单句得分详情。在查看评估详情时，平台支持对模型进行过滤筛选及单句评分排序。
 
-![model-evaluation4](https://github.com/jianingge123/modelverse/blob/master/pics/guide/model-%20evaluation4.png)
+![model-evaluation4](https://www-s.ucloud.cn/2025/01/82c9963d5219ce1a355db25f7150274b_1736846738724.png)
 
 ### 关于评估报告指标
 
@@ -72,8 +73,8 @@
 
 - 终止：用户可以在评估任务排队中或进行中随时终止当前任务。
 
-![model-evaluation5](https://github.com/jianingge123/modelverse/blob/master/pics/guide/model-%20evaluation5.png)
+![model-evaluation5](https://www-s.ucloud.cn/2025/01/4fc6213ca15e67ac7f67f5eaf95dfa9a_1736846738729.png)
 
 - 删除：对训练失败、已完成、已终止的任务可进行删除。
 
-![model-evaluation6](https://github.com/jianingge123/modelverse/blob/master/pics/guide/model-%20evaluation6.png)
+![model-evaluation6](https://www-s.ucloud.cn/2025/01/0ffccbdecb94181e9d453f4cb5bdff2d_1736846738740.png)
