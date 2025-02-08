@@ -12,12 +12,12 @@ ModelVerse 大模型服务平台的「模型广场」预置了多款业内知名
 - 筛选：可以针对语言、上下文长度进行筛选。
 - 排序：在模型列表上方支持综合排序、按模型更新时间、按模型名称进行排序。
 - 搜索：搜索框内可按模型名称进行检索。
-![model-marketplace1](https://www-s.ucloud.cn/2025/02/13a3162e0b4c6d7249f716a22290b72c_1738930609321.png)
+![model-marketplace1](https://www-s.ucloud.cn/2025/02/722b7c5db84cf0e06a9abb26e95dcb0a_1738984819170.png)
 
 ## **模型操作**
 
 点击模型卡片，进入模型详情页。包含模型名称、模型类型、模型描述等基本信息。
-![model-marketplace2]()
+![model-marketplace2](https://www-s.ucloud.cn/2025/02/5c1e484e1a79aeba766de7b3a53fdddb_1738930609329.png)
 
 ### **微调**
 
