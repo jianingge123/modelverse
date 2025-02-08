@@ -37,6 +37,8 @@ ModelVerse 大模型服务平台的「模型广场」预置了多款业内知名
 
 | 模型类别       | 模型                                    | 操作                     |
 |--------------|---------------------------------------|------------------------|
+| **DeepSeek系列**  | DeepSeek R1                      | **API调用（限时免费）**   |
+|              | DeepSeek V3                      | **API调用（限时免费）**   |
 | **Qwen系列**  | Qwen/Qwen2.5-14B-Instruct            | 微调、评估、部署        |
 |              | Qwen/Qwen2.5-0.5B-Instruct           | 微调、评估、部署        |
 |              | Qwen/Qwen2.5-1.5B-Instruct           | 微调、评估、部署        |
@@ -47,5 +49,3 @@ ModelVerse 大模型服务平台的「模型广场」预置了多款业内知名
 | **Meta-Llama系列** | meta-llama/Meta-Llama-3.1-8B-Instruct  | 微调、评估、部署   |
 |              | meta-llama/Llama-2-13b-chat-hf      | 微调、评估、部署   |
 |              | meta-llama/Llama-2-7b-chat-hf       | 微调、评估、部署   |
-| **DeepSeek系列**  | DeepSeek R1                      | **API调用（限时免费）**   |
-|              | DeepSeek V3                      | **API调用（限时免费）**   |
