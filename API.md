@@ -1,14 +1,11 @@
 # API说明
 
 ## 概览
-Modelverse模型服务平台提供了一系列的推理服务API，旨在为开发者提供灵活且强大的模型推理能力。这些API支持多种功能，包括对话(Chat)、文本续写(Completions)、向量生成(Embeddings)、批量预测(Batch Prediction)等，以满足不同场景下的需求。
+Modelverse模型服务平台提供了一系列的推理服务API，旨在为开发者提供灵活且强大的模型推理能力。这些API支持多种功能，包括对话(Chat)以满足不同场景下的需求。
 
 ## API列表
 平台支持的API包括：
 - **对话(Chat) API**：实现与模型的交互式对话。
-- **文本续写(Completions) API**：基于给定文本生成后续内容。
-- **向量生成(Embeddings) API**：将文本转换为向量表示，用于各种NLP任务。
-- **批量预测(Batch Prediction) API**：一次性处理大量数据的预测任务。
 
 ## 访问DeepSeek模型
 目前，DeepSeek R1 和 DeepSeek V3 模型支持通过API进行访问。通过API，您可以获取DeepSeek API Key，这是验证和授权访问这些模型所必需的。
