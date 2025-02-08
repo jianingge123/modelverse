@@ -35,17 +35,17 @@ ModelVerse 大模型服务平台的「模型广场」预置了多款业内知名
 
 ## **模型广场支持模型及操作概览**
 
-| 模型类别       | 模型                                    | 操作                     | 价格     |
-|--------------|---------------------------------------|------------------------|---------|
-| **Qwen系列**  | Qwen/Qwen2.5-14B-Instruct            | 微调、评估、部署        | 免费     |
-|              | Qwen/Qwen2.5-0.5B-Instruct           | 微调、评估、部署        | 免费     |
-|              | Qwen/Qwen2.5-1.5B-Instruct           | 微调、评估、部署        | 免费     |
-|              | Qwen/Qwen2.5-7B-Instruct             | 微调、评估、部署        | 免费     |
-|              | Qwen/Qwen2-7B-Instruct              | 微调、评估、部署        | 免费     |
-|              | Qwen/Qwen1.5-14B-Chat               | 微调、评估、部署        | 免费     |
-|              | Qwen/Qwen1.5-7B-Chat                | 微调、评估、部署        | 免费     |
-| **Meta-Llama系列** | meta-llama/Meta-Llama-3.1-8B-Instruct  | 微调、评估、部署   | 免费     |
-|              | meta-llama/Llama-2-13b-chat-hf      | 微调、评估、部署   | 免费     |
-|              | meta-llama/Llama-2-7b-chat-hf       | 微调、评估、部署   | 免费     |
-| **DeepSeek系列**  | DeepSeek R1                      | 查看 API 文档            | 限时免费 |
-|              | DeepSeek V3                      | 查看 API 文档            | 限时免费 |
+| 模型类别       | 模型                                    | 操作                     |
+|--------------|---------------------------------------|------------------------|
+| **Qwen系列**  | Qwen/Qwen2.5-14B-Instruct            | 微调、评估、部署        |
+|              | Qwen/Qwen2.5-0.5B-Instruct           | 微调、评估、部署        |
+|              | Qwen/Qwen2.5-1.5B-Instruct           | 微调、评估、部署        |
+|              | Qwen/Qwen2.5-7B-Instruct             | 微调、评估、部署        |
+|              | Qwen/Qwen2-7B-Instruct              | 微调、评估、部署        |
+|              | Qwen/Qwen1.5-14B-Chat               | 微调、评估、部署        |
+|              | Qwen/Qwen1.5-7B-Chat                | 微调、评估、部署        |
+| **Meta-Llama系列** | meta-llama/Meta-Llama-3.1-8B-Instruct  | 微调、评估、部署   |
+|              | meta-llama/Llama-2-13b-chat-hf      | 微调、评估、部署   |
+|              | meta-llama/Llama-2-7b-chat-hf       | 微调、评估、部署   |
+| **DeepSeek系列**  | DeepSeek R1                      | **API调用（限时免费）**   |
+|              | DeepSeek V3                      | **API调用（限时免费）**   |
