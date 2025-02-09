@@ -1,5 +1,4 @@
 # API说明
-本文介绍了 modelverse 相关API及使用。
 
 ## 功能介绍
 本接口用于调用 ModelVerse 平台上的 DeepSeek-R1 大模型，实现智能对话功能。
@@ -10,7 +9,7 @@
 | DeepSeek-Reasoner | DeepSeek-R1 | 8192 |
 
 ## 获取 API Key
-请参考 [后端鉴权文档](**[需要替换：鉴权文档链接]** ) 获取 API Key。
+请参考[获取模型服务 - GetUMInferService](https://docs.ucloud.cn/api/uai-modelverse-api/get_um_infer_service) 获取 API Key。
 
 
 ## Chat API调用
@@ -49,6 +48,24 @@ curl --location 'https://deepseek.modelverse.cn/v1/chat/completions' \
 
 
 ## 响应
+## 响应头域
+| 名称                           | 描述                                                         |
+|--------------------------------|--------------------------------------------------------------|
+| X-Ratelimit-Limit-Requests     | 一分钟内允许的最大请求次数                                    |
+| X-Ratelimit-Limit-Tokens       | 一分钟内允许的最大tokens消耗，包含输入tokens和输出tokens       |
+| X-Ratelimit-Remaining-Requests  | 达到RPM速率限制前，剩余可发送的请求数配额，如果配额用完，将会在0-60s后刷新 |
+| X-Ratelimit-Remaining-Tokens   | 达到TPM速率限制前，剩余可消耗的tokens数配额，如果配额用完，将会在0-60s后刷新 |
+
+## 响应参数
+| 名称              | 类型          | 描述                                                                                                                                  |
+|-------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| id                | string        | 本次请求的唯一标识，可用于排查问题                                                                                                     |
+| object            | string        | 回包类型 `chat.completion`：多轮对话返回                                                                                               |
+| created           | int           | 时间戳                                                                                                                              |
+| model             | string        | 说明：<br>(1) 如果是预置服务，返回模型ID<br>(2) 如果是sft后部署的服务，该字段返回`model:modelversionID`，model与请求参数相同，是本次请求使用的大模型ID；modelversionID用于溯源 |
+| choices           | choices/sse_choices | stream=false时，返回内容<br>stream=true时，返回内容                                                                                   |
+| usage             | usage         | token统计信息，说明：<br>(1) 同步请求默认返回<br>(2) 流式请求默认不返回，当开启`stream_options.include_usage=true`时，会在最后一个chunk返回实际内容，其他chunk返回null |
+| search_results    | search_results | 搜索结果列表                                                                                                                         |
 
 ## 响应示例
 ```json
