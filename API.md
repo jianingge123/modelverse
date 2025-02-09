@@ -13,6 +13,7 @@
 
 
 ## Chat API调用
+## 请求
 ### 请求头域
 | 名称 | 类型 | 类型 | 描述 |
 | --- | --- | --- | --- |
@@ -48,7 +49,7 @@ curl --location 'https://deepseek.modelverse.cn/v1/chat/completions' \
 
 
 ## 响应
-## 响应头域
+### 响应头域
 | 名称                           | 描述                                                         |
 |--------------------------------|--------------------------------------------------------------|
 | X-Ratelimit-Limit-Requests     | 一分钟内允许的最大请求次数                                    |
@@ -56,7 +57,7 @@ curl --location 'https://deepseek.modelverse.cn/v1/chat/completions' \
 | X-Ratelimit-Remaining-Requests  | 达到RPM速率限制前，剩余可发送的请求数配额，如果配额用完，将会在0-60s后刷新 |
 | X-Ratelimit-Remaining-Tokens   | 达到TPM速率限制前，剩余可消耗的tokens数配额，如果配额用完，将会在0-60s后刷新 |
 
-## 响应参数
+### 响应参数
 | 名称              | 类型          | 描述                                                                                                                                  |
 |-------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | id                | string        | 本次请求的唯一标识，可用于排查问题                                                                                                     |
@@ -67,7 +68,7 @@ curl --location 'https://deepseek.modelverse.cn/v1/chat/completions' \
 | usage             | usage         | token统计信息，说明：<br>(1) 同步请求默认返回<br>(2) 流式请求默认不返回，当开启`stream_options.include_usage=true`时，会在最后一个chunk返回实际内容，其他chunk返回null |
 | search_results    | search_results | 搜索结果列表                                                                                                                         |
 
-## 响应示例
+### 响应示例
 ```json
 {
     "id": "chatcmpl-da992342dddc42c49e2941dac2a4fbd9",
