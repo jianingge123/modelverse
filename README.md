@@ -29,10 +29,7 @@
 * [数据集管理](/modelverse/guide/dataset-manage.md)
 
 ## 5.API说明
-## 6.场景实践
-* [调用DeepSeek推理服务](/modelverse/scenario/deepseek-inference.md)
 
-  
 
 
 
