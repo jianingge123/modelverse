@@ -1,24 +1,24 @@
 # API说明
 
 ## 功能介绍
-本接口用于调用 ModelVerse 平台上的 DeepSeek-R1 大模型，实现智能对话功能。
+本接口用于调用 ModelVerse 平台上的大模型，实现智能对话功能。
 
 ## 支持模型列表
 | 模型名称 | 模型版本 | max_completion_tokens   最大输出长度 |
 | --- | --- | --- |
 | DeepSeek-Reasoner | DeepSeek-R1 | 8192 |
 
-## 获取 API Key
+## 第一步：获取 API Key
 请参考[获取模型服务 - GetUMInferService](https://docs.ucloud.cn/api/uai-modelverse-api/get_um_infer_service) 获取 API Key。
 
 
-## Chat API调用
+## 第二步：Chat API调用
 ## 请求
 ### 请求头域
 | 名称 | 类型 | 类型 | 描述 |
 | --- | --- | --- | --- |
 | Content-Type | string | 是 | 固定值application/json |
-| Authorization | string | 是 | 见鉴权说明 |
+| Authorization | string | 是 | 传入第一步中API获取的Key |
 
 
 ### 请求参数
@@ -104,7 +104,7 @@ curl --location 'https://deepseek.modelverse.cn/v1/chat/completions' \
 | HTTP 状态码 | 类型              | 错误码            | 错误信息                        | 描述                                                                 |
 |------------|-------------------|-------------------|----------------------------------|----------------------------------------------------------------------|
 | 400        | invalid_request_error | invalid_messages   | 信息敏感                        | 消息敏感                                                             |
-| 400        | invalid_request_error | characters_too_long | 对话 token 输出限制              | 目前 deepseek 系列模型支持的最大 max_tokens 为 4096\*3                  |
+| 400        | invalid_request_error | characters_too_long | 对话 token 输出限制              | 目前 deepseek 系列模型支持的最大 max_tokens 为 12288               |
 | 400        | invalid_request_error | tokens_too_long    | Prompt tokens too long           | 【用户输入错误】请求内容超过大模型内部限制，即用户输入大模型内容过长，可以尝试以下方法解决：<br>• 适当缩短输入 |
 | 400        | invalid_request_error | invalid_token      | Validate Certification failed    | bearer token 无效，用户可以参考【鉴权说明】获取最新密钥               |
 | 400        | invalid_request_error | invalid_model      | No permission to use the model   | 没有模型权限                                                         |
